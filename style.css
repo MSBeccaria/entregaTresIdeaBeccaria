@@ -449,6 +449,20 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
     background-color:#E6C693;
 }
 
+.mainContact__form textarea{
+    background-color:white;
+    border-color: none;
+    width: 100%;
+    
+}
+
+.mainContact__form .btn-primary{
+    background-color: #CE5C16;
+    border-color:chocolate;
+    color:bisque;
+    margin-top: 20px;
+}
+
 /*APLICO MEDIAQUERIES EN CONTACTO PARA VISTA MOBILE*/
 @media(max-width:768px){
 
