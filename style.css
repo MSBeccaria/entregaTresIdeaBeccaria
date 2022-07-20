@@ -99,9 +99,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
 
 
 @media(max-width:768px){
-
-
-    .gridConteinerIndex{
+       .gridConteinerIndex{
         display:grid;
         grid-template-areas: "header"
                               "main"
@@ -123,6 +121,16 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
         font-weight: bold;
         text-align: center;
     }
+    #footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#CE5C16;
+        height: 80px;
+        width: 100%;
+        margin-top: 3px;
+     }
+ }
 
  
 /*HASTA ACÁ MEDIAQUERY INDEX-----------------------------------------*/
@@ -144,15 +152,15 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
     display:grid;
     grid-template-columns:2fr 2fr;
     grid-template-rows: 1fr 1fr;
-    grid-column-gap:5px;
+    grid-column-gap: 10px;
     grid-row-gap: 10px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 #mainNosotras .mainNosotras__foto1,
 #mainNosotras .mainNosotras__foto2{
-    width: 70%px;
+    width: 60%;
 }
 
 .mainNosotras__foto1,
@@ -165,11 +173,6 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
 }
 .mainNosotras__foto2:hover{
     filter: grayscale(100%);
-}
-
-.mainNosotras__textoGrupo,
-.mainNosotras__textoDirectora{
-    text-align: justify;
 }
 
 #mainNosotras span{
@@ -187,8 +190,10 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
                               "main"
                               "footer";
         grid-template-rows: 200px 2200px 50px;
-        grid-template-columns: 768px;
-        gap: 5px;
+        gap: 5px;  
+        align-items: center; 
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
 
@@ -198,21 +203,21 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
-        justify-items: center;
-        padding left:2px;
-        paddin right: 2px;
     }
 
     #mainNosotras .mainNosotras__foto1,
     #mainNosotras .mainNosotras__foto2{
-        width:50%;
-        justify-content: center;
-        justify-items: center;
-
-    
+         width:60%;
     } 
 
-
+    #footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#CE5C16;
+        height: 80px;
+        width: 100%;
+     }
 } 
 
 /*MUSICA*/
@@ -308,6 +313,14 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
         padding-left: 20px;
         
     }
+    #footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#CE5C16;
+        height: 80px;
+        width: 100%;
+     }
 
 }    
 
@@ -390,6 +403,14 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
     .carteleraItem:hover{
         transform:none;
     }
+    #footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#CE5C16;
+        height: 80px;
+        width: 100%;
+     }
 
 
 }    
