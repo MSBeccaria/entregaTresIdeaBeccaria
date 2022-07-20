@@ -151,17 +151,17 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
 
 #mainNosotras{
     display:grid;
-    grid-template-columns:2fr 1fr;
+    grid-template-columns:2fr 2fr;
     grid-template-rows: 1fr 1fr;
-    grid-column-gap: 6px;
+    grid-column-gap:5px;
     grid-row-gap: 10px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 #mainNosotras .mainNosotras__foto1,
 #mainNosotras .mainNosotras__foto2{
-    width: 350px;
+    width: 70%px;
 }
 
 .mainNosotras__foto1,
@@ -196,6 +196,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
                               "main"
                               "footer";
         grid-template-rows: 200px 2100px 50px;
+        grid-template-columns: 768px;
         gap: 5px;
     }
 
@@ -272,6 +273,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
     text-align: left;
     padding: bottom 10px;
     padding-top:30px;
+    padding-left:20px;
 }
 
 /*APLICO MEDIAQUERIES EN MUSICA PARA VISTA MOBILE*/
@@ -318,7 +320,8 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
     
     #mainMusica h1{
         text-align: left;
-        padding-bottom: 10px;
+        padding-bottom:0;
+        padding-left: 20px;
         
     }
 
