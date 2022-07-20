@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat Alternates', sans-serif;
+    
 }
 
 body{
@@ -195,7 +196,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
         grid-template-areas: "header"
                               "main"
                               "footer";
-        grid-template-rows: 200px 2100px 50px;
+        grid-template-rows: 200px 2200px 50px;
         grid-template-columns: 768px;
         gap: 5px;
     }
@@ -214,7 +215,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
 
     #mainNosotras .mainNosotras__foto1,
     #mainNosotras .mainNosotras__foto2{
-        width:60%;
+        width:50%;
         justify-content: center;
         justify-items: center;
 
