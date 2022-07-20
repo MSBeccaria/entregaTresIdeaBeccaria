@@ -121,20 +121,10 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
         font-size: 5vh;
         color:black;
         font-weight: bold;
+        text-align: center;
     }
 
  
-
-    #footer{
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       background-color:#CE5C16;
-       height: 80px;
-       width: 100%;
-       margin-top: 3px;
-    }
-}       
 /*HASTA ACÁ MEDIAQUERY INDEX-----------------------------------------*/
 
 
@@ -222,14 +212,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
     
     } 
 
-    #footer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color:#CE5C16;
-        height: 80px;
-        width: 100%;
-     }
+
 } 
 
 /*MUSICA*/
@@ -326,15 +309,6 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
         
     }
 
-
-    #footer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color:#CE5C16;
-        height: 80px;
-        width: 100%;
-     }
 }    
 
 
@@ -417,14 +391,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
         transform:none;
     }
 
-    #footer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color:#CE5C16;
-        height: 80px;
-        width: 100%;
-     }
+
 }    
 
 
