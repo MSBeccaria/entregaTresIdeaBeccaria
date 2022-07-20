@@ -82,7 +82,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
     background-color:#CE5C16;
     height: 80px;
     width: 100%;
-    margin top: 10px;
+    margin-top: 10px;
 
 }
 
@@ -207,7 +207,9 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
 
     #mainNosotras .mainNosotras__foto1,
     #mainNosotras .mainNosotras__foto2{
-         width:60%;
+         width:50%;
+         justify-content: center;
+         justify-items: center;
     } 
 
     #footer{
